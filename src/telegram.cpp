@@ -81,9 +81,8 @@ void getTelegramUpdate()
         {
             sendTelegramMessage("Температура: " + String(temperature1, 1) +
                                 " °C\nВлажность: " + String(humidity) +
-                                " % \nДавление: " + String(pressure) + " ммРтСт" +
-                                " \nАналоговый вход: " + String(analog) + " ммРтСт" +
-                                " (" + analog + "°C)");
+                                " % \nДавление: " + String(pressure) + " ммРтСт (" + String(temperature2, 1) + "°C)" +
+                                " \nАналоговый вход: " + String(analog));
         }
         else
         {
