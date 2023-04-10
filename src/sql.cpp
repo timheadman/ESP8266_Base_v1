@@ -6,7 +6,7 @@
 #include <MySQL_Generic.h>
 MySQL_Connection conn((Client *)&client);
 MySQL_Query *query_mem;
-IPAddress sqlIp(10, 11, 12, 250);
+IPAddress sqlIp(10, 11, 12, 200);
 
 void sendSqlQuery(String sql)
 {
